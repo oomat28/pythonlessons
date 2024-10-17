@@ -118,7 +118,7 @@ nums_list.reverse()
 # print(new_nums)
 
 
-list_of_lists = [[1, 2, 3], ['Katya', 'Masha', 'Sanya'], [4, 5, 6]]
+# list_of_lists = [[1, 2, 3], ['Katya', 'Masha', 'Sanya'], [4, 5, 6]]
 
 # for list_ in list_of_lists:
 #     for element in list_:
@@ -178,6 +178,7 @@ import time
 
 """ else в циклах """
 nums = range(0, 101, 2)
+# print(list(numsX))
 result = 0
 for num in nums:
     if num == 50:
