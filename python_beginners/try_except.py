@@ -124,12 +124,23 @@ Exception
 #     print('неправильно написан код')
 
 
-contacts = {'Aleha': 3883, 'Ivan': 2833, 'Aliya': 4783}
-try:
-    name = input('Введите имя ').title()
-    contacts[name]
-except KeyError:
-    print('Нет такого имени')
+# contacts = {'Aleha': 3883, 'Ivan': 2833, 'Aliya': 4783}
+# try:
+#     name = input('Введите имя ').title()
+#     contacts[name]
+# except KeyError:
+#     print('Нет такого имени')
+
+
+# contacts = {'Aleha': 3883, 'Ivan': 2833, 'Aliya': 4783}
+# name = input('Введите имя ').title()
+# if name not in contacts:
+#     print('Нет такого имени')
+# else:
+#     contacts[name]
+
+
+
 
 
 
